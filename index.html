@@ -1,40 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bana's Travel Blog</title>
+  <title>Tea Cozy</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div id="banner">
-    <h1>Bana's Travel Blog</h1>
-  </div>
-  <div id="blog">
-    <div class="post">
-      <h2>Saturday Market</h2>
-      <h3>January 7th</h3>
-      <strong class="opening-line">On Saturday, Dilara took us to the market.</strong>
-      <p>It is a wonderfully eclectic mix of goods from all over the world - delightfully random. I dusted off my bargaining skills to buy a metal bracelet with camels on it, and Maggie bought a lapis lazuli necklace from Afghanistan. In the evening, we walked along Gulf Road towards the marina, passed through Marina Mall, and ate dinner at a wonderful little cafe that we will definitely be frequenting. Ive developed a slight obsession with lentil soul... maybe its because I miss Focos Indian lentil chili.</p>
-      <div class="image-container">
-        <img src="market.jpg" />
+
+  <!-- Header -->
+
+  <header class="flex-container">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png" style="max-height:50px; padding-left:10px;">
+    <nav>
+      <span><a href="#mission">Mission</a></span>
+      <span><a href="#store">Featured Tea</a></span>
+      <span><a href="#locations">Locations</a></span>
+    </nav>
+  </header>
+
+  <!-- Main Content Container -->
+
+  <div class="main">
+
+    <!-- Mission Section -->
+
+    <div id="mission" class="flex-container">
+      <div class="content">
+        <h2>Our Mission</h2>
+        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
       </div>
-      <p>We took a catamaran from the marina to Failaka Island, where we got to explore a bit, relax on the beach, and go swimming. The water in the Gulf is incredibly still; I havent seen a wave yet, and when you look out on the horizon it seems to go forever. Something about the color of the water and maybe the dust in the air make it seem hazier than the Atlantic coast. I have some cool pictures of the city skyline as we returned on the boat.</p>
-      <p>That night, I hung out in a cafe with two friends, drinking traditional lemonade with mint. Its delicious; maybe I should send in a flavor suggestion to Morano Gelato? Then we drove around the city for a while. Cruising around is a really valid way to spend the time when a tank of gas costs about seven bucks. </p>
     </div>
-    <div class="images">
-      <div class="image-container">
-        <img src="camel.jpg" />
-      </div><!--
-      Adding comment to ensure no whitespace between inline-block div elements from HTML file.
-      --><div class="image-container">
-        <img src="map.png" />
+
+    <!-- Store Section -->
+
+    <div id="store">
+      <h2>Tea of the Month</h2>
+      <h4>What's Steeping at The Tea Cozy?</h4>
+      <div class="flex-container items">
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg">
+          <span>Fall Berry Blitz Tea</span>
+        </div>
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg">
+          <span>Spiced Rum Tea</span>
+        </div>
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg">
+          <span>Seasonal Donuts</span>
+        </div>
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg">
+          <span>Myrtle Ave Tea</span>
+        </div>
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg">
+          <span>Bedford Bizarre Tea</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Locations Section -->
+
+    <div id="locations">
+      <h2>Locations</h2>
+      <div class="flex-container locations">
+        <div class="location">
+          <h3>Downtown</h3>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location">
+          <h3>East Bayside</h3>
+          <p>3433 Phisherman's Avenue</p>
+          <p>(Northwest Corner)</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location">
+          <h3>Oakdale</h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <h2>The Tea Cozy</h2>
+    <h5>contact@theteacozy.com</h5>
+    <h5>917-555-8904</h5>
+  </div>
+
+  <!-- Footer Section -->
   <footer>
-    <span>&copy; Banas Travel Blog</span>
+    <h5>copyright The Tea Cozy 2017</h5>
   </footer>
+
 </body>
+
 </html>
